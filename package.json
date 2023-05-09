@@ -1,0 +1,33 @@
+{
+  "name": "workout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "workout"
+  },
+  "keywords": [
+    "workout",
+    "app"
+  ],
+  "author": "zaga",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "prisma": "^4.13.0"
+  }
+}
